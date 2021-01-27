@@ -29,7 +29,7 @@ function injectScript(url = "", options) {
     const keys = Object.keys(options);
 
     keys.forEach((key) => {
-      $$script[key] = options[key];
+      $$script.setAttribute(key, options[key] === true ? "" : options[key]);
     });
   }
 
