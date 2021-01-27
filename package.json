@@ -1,6 +1,6 @@
 {
   "name": "storybook-external-links",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Storybook external link loaded after components mounting",
   "main": "index.js",
   "scripts": {
